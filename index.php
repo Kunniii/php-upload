@@ -3,11 +3,7 @@
 include('./Route.php');
 
 function view($fileName) {
-    echo file_get_contents('./'.$fileName.'.php');
-}
-
-function ctrl($fileName) {
-    echo file_get_contents('./'.$fileName.'.php');
+    echo file_get_contents("./".$fileName.".php");
 }
 
 Route::add('/', function() {
@@ -16,6 +12,6 @@ Route::add('/', function() {
 
 Route::add('/upload', function() {
     view('upload');
-});
+}); 
 
 Route::run();

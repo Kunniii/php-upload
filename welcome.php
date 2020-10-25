@@ -7,6 +7,7 @@
     </head>
     <body>
         <h1>Welcome</h1>
-        <a href="/upload">Upload</a>
+        <a href="/upload" style="margin-right:3%">Upload</a>
+        <a href="/download">Download</a>
     </body>
 </html>
