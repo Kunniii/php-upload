@@ -8,7 +8,7 @@
     <body>
         <h1>Download</h1>
         <?php
-        if ($_POST["pass"] != "hello") {
+        if ($_POST["pass"] != "your-password") {
             echo "<p>Please enter a correct password!</p><br>";
             echo "<input class=\"upload\" type=\"button\" value=\"Try again\" onclick=\"history.back()\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"/\">Go to Home page</a>";
             exit(0);
