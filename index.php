@@ -12,6 +12,10 @@ Route::add('/', function() {
 
 Route::add('/upload', function() {
     view('upload');
-}); 
+});
+
+Route::add('/download', function() {
+    view('download');
+});
 
 Route::run();
