@@ -8,7 +8,7 @@
   <body>
 <?php
 
-if ($_POST["pass"] != "randompassword") {
+if ($_POST["pass"] != "random-password") {
   echo "<p>Please enter a correct password!</p><br>";
   echo "<input class=\"upload\" type=\"button\" value=\"Try again\" onclick=\"history.back()\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"/\">Go to Home page</a>";
   exit(0);
